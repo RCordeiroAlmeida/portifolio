@@ -81,8 +81,8 @@ Busco oportunidades como desenvolvedor onde eu possa:
 
 ## 📫 Contato
 
-📧 Email: seuemail@email.com  
-💼 LinkedIn: https://linkedin.com/in/seuusuario  
+📧 Email: rafaelcordeiro29@gmail.com  
+💼 LinkedIn: https://linkedin.com/in/rafael-cordeiro-de-almeida
 🐙 GitHub: https://github.com/RCordeiroAlmeida  
 
 ---
