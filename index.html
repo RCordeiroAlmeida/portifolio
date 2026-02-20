@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rafael Almeida | Fullstack Developer</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <div id="tooltip"></div>
+    <div class="mesh-gradient"></div>
+
+    <div class="container">
+      <header>
+        <div class="hero-card">
+          <span class="badge">🚀 5 Anos de Experiência</span>
+          <h1>Rafael C. Almeida</h1>
+          <p class="hero-subtitle">
+            Fullstack Developer | C# | PHP | JavaScript
+          </p>
+          <div class="hero-btns">
+            <a
+              href="https://www.linkedin.com/in/rafael-cordeiro-de-almeida/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a
+              href="https://github.com/RCordeiroAlmeida/"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="#projetos" class="btn btn-outline">Ver Projetos</a>
+          </div>
+        </div>
+      </header>
+
+      <h2 class="section-title reveal reveal-up">Minha Stack Profissional</h2>
+
+      <div class="tech-section">
+        <div class="tech-category reveal reveal-up">
+          <h3>Frontend</h3>
+          <div class="tech-grid">
+            <i
+              class="devicon-angularjs-plain colored tech-item"
+              data-name="Angular"
+            ></i>
+            <i
+              class="devicon-react-original colored tech-item"
+              data-name="React.js"
+            ></i>
+            <i
+              class="devicon-typescript-plain colored tech-item"
+              data-name="TypeScript"
+            ></i>
+            <i
+              class="devicon-javascript-plain colored tech-item"
+              data-name="JavaScript"
+            ></i>
+            <i
+              class="devicon-tailwindcss-plain colored tech-item"
+              data-name="Tailwind CSS"
+            ></i>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-up">
+          <h3>Backend</h3>
+          <div class="tech-grid">
+            <i
+              class="devicon-csharp-plain colored tech-item"
+              data-name="C# Language"
+            ></i>
+            <i
+              class="devicon-dotnetcore-plain colored tech-item"
+              data-name=".NET Core"
+            ></i>
+            <i class="devicon-php-plain colored tech-item" data-name="PHP"></i>
+            <i
+              class="devicon-laravel-plain colored tech-item"
+              data-name="Laravel Framework"
+            ></i>
+            <i
+              class="devicon-nodejs-plain colored tech-item"
+              data-name="Node.js"
+            ></i>
+          </div>
+        </div>
+
+        <div class="tech-category reveal reveal-up">
+          <h3>Database & Cloud</h3>
+          <div class="tech-grid">
+            <i
+              class="devicon-microsoftsqlserver-plain colored tech-item"
+              data-name="SQL Server"
+            ></i>
+            <i
+              class="devicon-postgresql-plain colored tech-item"
+              data-name="PostgreSQL"
+            ></i>
+            <i
+              class="devicon-mysql-plain colored tech-item"
+              data-name="MySQL"
+            ></i>
+            <i
+              class="devicon-firebase-plain colored tech-item"
+              data-name="Firebase"
+            ></i>
+            <i
+              class="devicon-docker-plain colored tech-item"
+              data-name="Docker"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <h2
+        id="projetos"
+        class="section-title reveal reveal-up"
+        style="margin-top: 8rem"
+      >
+        Projetos Recentes
+      </h2>
+
+      <!-- Mentor -------------------------------------------------------------------------->
+
+      <div class="projects-container">
+        <div class="project-row reveal reveal-left">
+          <div class="project-img">
+            <img src="./assets/img/mentor.png" alt="Tela inicial Mentor" />
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="tag">Next.js 15</span>
+              <span class="tag">React 19</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Zod</span>
+            </div>
+            <h3>Mentor | SaaS para Clínicas</h3>
+            <p>
+              Plataforma robusta para gestão clínica focada em performance e
+              segurança. Implementa autenticação segura (Google OAuth) e
+              arquitetura moderna baseada nos novos Server Components do React
+              19.
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://saas-mentor-ten.vercel.app/"
+                target="_blank"
+                class="btn btn-primary btn-sm"
+              >
+                <i class="fas fa-external-link-alt"></i> Preview
+              </a>
+              <a
+                href="https://github.com/RCordeiroAlmeida/saas-mentor"
+                target="_blank"
+                class="btn btn-outline btn-sm"
+              >
+                <i class="fab fa-github"></i> Repositório
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- La Sucré -------------------------------------------------------------------------->
+
+        <div class="project-row reveal reveal-right reverse">
+          <div class="project-img">
+            <img src="./assets/img/LaSucre.png" alt="Tela inicial LaSucre" />
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="tag">PHP / Laravel</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Blade</span>
+              <span class="tag">Vanilla JS</span>
+            </div>
+            <h3>La Sucré | Sistema Fullstack</h3>
+            <p>
+              Aplicação completa que integra uma interface elegante com um
+              sistema de gerenciamento dinâmico em Laravel. Estruturado para
+              gerenciar catálogos de produtos e pedidos em tempo real.
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/RCordeiroAlmeida/la-sucre"
+                target="_blank"
+                class="btn btn-outline btn-sm"
+              >
+                <i class="fab fa-github"></i> Repositório
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-row reveal reveal-left">
+          <div class="project-img">
+            <img
+              src="./assets/img/auraPilates.png"
+              alt="Plataforma Áura Pilates"
+            />
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span class="tag">Next.js 15</span>
+              <span class="tag">React 19</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Stripe API</span>
+              <span class="tag">Tailwind CSS</span>
+            </div>
+            <h3>Áura Pilates | Gestão e Pagamentos</h3>
+            <p>
+              Sistema completo de agendamento e checkout para clínicas de
+              bem-estar. Desenvolvido com a robustez do
+              <strong>Next.js 15</strong>, utiliza comunicação direta com banco
+              <strong>PostgreSQL</strong> e integração total com
+              <strong>Stripe</strong> para processamento seguro de mensalidades
+              e aulas avulsas, garantindo uma experiência de compra fluida e
+              automatizada.
+            </p>
+            <div class="project-btns">
+              <a
+                href="https://github.com/RCordeiroAlmeida/saas-mentor"
+                target="_blank"
+                class="btn btn-outline btn-sm"
+              >
+                <i class="fab fa-github"></i> Repositório
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nexus -------------------------------------------------------------------------->
+
+      <div class="project-row reveal reveal-right reverse">
+        <div class="project-img">
+          <img
+            src="./assets/img/nexus.png"
+            alt="Plataforma Nexus Gaming Lounge"
+          />
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span class="tag">Next.js 15</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Firebase Realtime</span>
+            <span class="tag">Stripe API</span>
+          </div>
+          <h3>Nexus | Gaming Lounge SaaS</h3>
+          <p>
+            Plataforma de alta performance para gestão de Lan Houses e arenas
+            e-sports. O sistema utiliza
+            <strong>Firebase Realtime Database</strong> para monitoramento
+            instantâneo de máquinas ativas, integração com
+            <strong>Stripe</strong> para reserva de créditos via PIX/Cartão e
+            <strong>PostgreSQL</strong> para persistência de dados históricos e
+            rankings de jogadores.
+          </p>
+          <div class="project-btns">
+            <a
+              href="https://github.com/RCordeiroAlmeida/nexus-lounge"
+              target="_blank"
+              class="btn btn-outline btn-sm"
+            >
+              <i class="fab fa-github"></i> Repositório
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Inked Gallery -------------------------------------------------------------------------->
+
+      <div class="project-row reveal reveal-left">
+        <div class="project-img">
+          <img
+            src="./assets/img/inked-gallery.png"
+            alt="Plataforma Inked Gallery"
+          />
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span class="tag">PHP 8</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Bootstrap 5</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <h3>Inked Gallery | Haute Couture Tattoo</h3>
+          <p>
+            Landing page de luxo e sistema de gerenciamento de portfólio
+            artístico. Desenvolvido em <strong>PHP</strong>, o sistema conta com
+            uma estrutura <strong>MySQL</strong> otimizada para o carregamento
+            dinâmico de galerias de alta resolução. A interface utiliza
+            <strong>Bootstrap 5</strong> com estilização customizada para
+            entregar uma experiência visual minimalista e responsiva, focada na
+            conversão de consultorias privadas.
+          </p>
+          <div class="project-btns">
+            <a
+              href="https://github.com/RCordeiroAlmeida/inked-gallery"
+              target="_blank"
+              class="btn btn-outline btn-sm"
+            >
+              <i class="fab fa-github"></i> Repositório
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <section class="cta-section reveal reveal-up">
+        <div class="cta-card">
+          <div class="cta-content">
+            <h2>Gostou do que viu?</h2>
+            <p>Estou disponível para novos projetos e colaborações incríveis. Vamos transformar sua ideia em realidade?</p>
+            <a 
+              href="https://wa.me/5511952737985" 
+              target="_blank" 
+              class="btn-whatsapp"
+            >
+              <i class="fab fa-whatsapp"></i> Me chame para conversar
+            </a>
+          </div>
+          <div class="cta-visual">
+            <div class="floating-icons">
+              <i class="fas fa-code"></i>
+              <i class="fas fa-rocket"></i>
+              <i class="fas fa-terminal"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <footer class="footer">
+        <p>&copy; 2026 Rafael Almeida | Fullstack Developer</p>
+      </footer>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
