@@ -21,7 +21,8 @@ Atualmente foco em desenvolvimento web utilizando boas práticas, organização 
 - JavaScript
 - Python
 - Java
-- R
+- C#
+- Typescript
 
 ### ⚙️ Backend
 - Laravel
@@ -29,20 +30,27 @@ Atualmente foco em desenvolvimento web utilizando boas práticas, organização 
 - Integrações de sistemas
 
 ### 🎨 Frontend
-- Vue.js
-- HTML5
-- CSS3
+- Next.js
+- React
+- Vue
+- Angular
 - JavaScript
 
 ### 🗄️ Banco de Dados
 - MySQL
+- PostgreSql
+- MariaDB
+- Firebase
 
 ### 🔧 Outros Conhecimentos
 - Implantação de sistemas
 - Hospedagem e gerenciamento
-- Versionamento com Git
+- Versionamento com Git e práticas de CI/CD
 - Estruturação de banco de dados
 - Stored Procedures
+- Jenkins
+- Docker
+- Testes unitários
 
 ---
 
@@ -57,7 +65,7 @@ Sistema completo para gerenciamento de:
 - Prontuários com controle de acesso por token
 
 Tecnologias:
-Laravel + Vue.js + MySQL
+Next.js + Tailwind + Laravel
 
 ---
 
